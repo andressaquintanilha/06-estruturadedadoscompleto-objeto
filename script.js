@@ -28,17 +28,35 @@ let cadastro = {
         {
             nome: "Michelle",
             idade: 32,
-            telefone: 00000-0000
+            telefone: 00000-0000, 
+            amigoEmComum: ["Ana","Juliana"]
         },
         {
             nome: "Marcelo",
             idade: 25,
-            telefone: 00000-0001
+            telefone: 00000-0001,
+            amigoEmComum: ["Evelyn","Matteo"]
+        },
+        {
+            nome: "Ana Maria",
+            idade: 41,
+            telefone: 00000-0002,
+            amigoEmComum: ["Anelize","Julio"]
+        },
+        {
+            nome: "Joana",
+            idade: 17,
+            telefone: 00000-0003,
+            amigoEmComum: ["Bianca","Willian"]
+        },
+        {
+            nome: "Camila",
+            idade: 28,
+            telefone: 00000-0004,
+            amigoEmComum: ["Higor","Jade"]
         }
-    ],
-    amigos: ["Dandara", "Vanessa", "Douglas", "Anna", "Felipe"]
+    ]
 }
 
 //Mostre no console o nome de um amigo de cada lista.
-console.log(cadastro.clientes[0])
-console.log(cadastro.amigos[3])
+console.log(cadastro.clientes[0].amigoEmComum[0], cadastro.clientes[1].amigoEmComum[0], cadastro.clientes[2].amigoEmComum[1], cadastro.clientes[3].amigoEmComum[0], cadastro.clientes[4].amigoEmComum[1])
